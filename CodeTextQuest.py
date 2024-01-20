@@ -195,6 +195,7 @@ while 2 > 1:
                                 else:
                                     print("Напишите число 1 или 2")
                                     continue
+                        break
                     elif vibor5 == '2':
                         print("Хорошо, всего наилучшего!")
                         break
