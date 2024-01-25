@@ -389,9 +389,9 @@ if business_vibor == '1':
     print("2) Заказать новые продукты и посуду")  # Дальнейший рост бизнеса после чего его отбирает гос-во
     print("3) Ничего не делать, у меня есть персонал пусть делают всё за меня")  # Падение бизнеса
     zadaniya = input()
-	while zadaniya != '1' and zadaniya != '2' and zadaniya != '3':
-    	print("Задание надо выбрать")
-		zadaniya = input()
+    while zadaniya != '1' and zadaniya != '2' and zadaniya != '3':
+        print("Задание надо выбрать")
+        zadaniya = input()
 elif business_vibor == '2':
     print("Прекрасный выбор! Однако для этой сети магазинов нам нужно название.")
     print("Дайте название данной сети магазинов:")
